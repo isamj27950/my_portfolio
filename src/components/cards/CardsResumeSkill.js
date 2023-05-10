@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function CardsResumeSkill() {
     return (
-      <div>
-        <div>
-          <h4>Features</h4>
-          <h3>Design Skill</h3>
+      <div className='px-6'>
+        <div className='py-2'>
+          <h4 className="text-[#878e99] text-sm font-normal">Features</h4>
+          <h3 className="text-white font-medium text-2xl">Design Skill</h3>
           <div>
-            <p>Photoshot</p>
+            <p className="text-[#c4cfde] text-xs font-normal">Photoshot</p>
             <input
               type="range"
               min="0"
@@ -17,7 +17,7 @@ export default function CardsResumeSkill() {
             />
           </div>
           <div>
-            <p>Canva</p>
+            <p className="text-[#c4cfde] text-xs font-normal">Canva</p>
             <input
               type="range"
               min="0"
@@ -27,7 +27,9 @@ export default function CardsResumeSkill() {
             />
           </div>
           <div>
-            <p>Adobe illustrator</p>
+            <p className="text-[#c4cfde] text-xs font-normal">
+              Adobe illustrator
+            </p>
             <input
               type="range"
               min="0"
@@ -37,7 +39,7 @@ export default function CardsResumeSkill() {
             />
           </div>
           <div>
-            <p>Adobe xd</p>
+            <p className="text-[#c4cfde] text-xs font-normal">Adobe xd</p>
             <input
               type="range"
               min="0"
@@ -47,11 +49,11 @@ export default function CardsResumeSkill() {
             />
           </div>
         </div>
-        <div>
-          <h4>Features</h4>
-          <h3>Development Skill</h3>
+        <div className='py-2 pb-8'>
+          <h4 className="text-[#878e99] text-sm font-normal">Features</h4>
+          <h3 className="text-white font-medium text-2xl">Development Skill</h3>
           <div>
-            <p>HTML</p>
+            <p className="text-[#c4cfde] text-xs font-normal">HTML</p>
             <input
               type="range"
               min="0"
@@ -61,7 +63,7 @@ export default function CardsResumeSkill() {
             />
           </div>
           <div>
-            <p>CSS</p>
+            <p className="text-[#c4cfde] text-xs font-normal">CSS</p>
             <input
               type="range"
               min="0"
@@ -71,17 +73,17 @@ export default function CardsResumeSkill() {
             />
           </div>
           <div>
-            <p>PHP</p>
+            <p className="text-[#c4cfde] text-xs font-normal">PHP</p>
             <input
               type="range"
               min="0"
               max="100"
               value="70"
-              className="range range-secondary range-xs mx-2"
+              className="range range-secondary range-xs mx-2 "
             />
           </div>
           <div>
-            <p>JAVASCRIPT</p>
+            <p className="text-[#c4cfde] text-xs font-normal">JAVASCRIPT</p>
             <input
               type="range"
               min="0"
