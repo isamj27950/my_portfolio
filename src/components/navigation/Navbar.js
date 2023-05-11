@@ -6,8 +6,8 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <div className="bg-black fixed bottom-1   text-white text-lg font-normal w-full h-10 md:relative">
-      <ul className="flex space-x-3 w-full xl:block xl:">
+    <div className=" fixed bottom-1    text-white text-lg font-normal w-full h-10 md:relative  xl:w-1/12">
+      <ul className="flex justify-center space-x-6 w-full xl:block xl:bg-gray-800 xl:mx-2 xl:text-center xl:rounded-md xl:p-2 xl:">
         <Link href="/about">
           <li className="hover:bg-[#ff014f] ">About</li>
         </Link>

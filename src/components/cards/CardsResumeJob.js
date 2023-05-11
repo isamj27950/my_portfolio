@@ -11,7 +11,7 @@ export default function CardsResumeJob() {
           Evreux,Pacy, Saint-Marcel(2016-2022)
         </h4>
         <div className="py-3 ">
-          <button className="btn text-[#ff014f] shadow-lg bg-gray-800  ">
+          <button className="btn text-[#ff014f] drop-shadow-xl bg-gray-800  ">
             4,5/5
           </button>
         </div>

@@ -11,7 +11,6 @@ export default function Footer() {
       </div>
       <div className="py-6">
         <p className="flex justify-center text-gray-500">
-          {" "}
           <RiCopyrightLine /> 2023.All rights reserved by Rainbow-Themes.
         </p>
       </div>

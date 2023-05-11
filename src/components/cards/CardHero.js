@@ -4,7 +4,7 @@ import CardsIconHero from './CardsIconHero';
 
 export default function CardHero() {
   return (
-    <div className="bg-gray-700 mx-20 rounded-2xl xl:flex ">
+    <div className="bg-gray-800 mx-20 rounded-2xl xl:flex ">
       <div className=" text-center w-1/2 mx-auto xl:flex">
         
         <img
@@ -24,9 +24,9 @@ export default function CardHero() {
       <div className="block justify-center text-start w-1/2 mx-auto px-2 pb-4 border-black my-3 border-t-2 md:flex md:space-x-8   xl:border-l-2 xl:border-t-0  py-8  ">
         <div className="py-2 ">
           <h3 className="uppercase text-gray-500 font-light">Email</h3>
-          <p className="text-white">example@gmail.com</p>
+          <p className="text-white">isamj27950@gmail.com</p>
           <h3 className="uppercase text-gray-500 font-light">Phone</h3>
-          <p className="text-white">+880123456789</p>
+          <p className="text-white">+0682004416</p>
         </div>
         <div className="py-2 ">
           <h3 className="uppercase text-gray-500 font-light">Birthday</h3>

@@ -2,14 +2,17 @@ import React from 'react'
 import SectionHeroHome from './SectionHeroHome';
 import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
+import Form from '@/components/form/Form';
+import Layout from '@/components/layout/Layout';
 
 export default function contact() {
   return (
-    <div>
-      <SectionHeroHome />
-      <Navbar />
-      <h1 className="bg-gray-800 text-white">CONTACT</h1>
-      <Footer />
-    </div>
+    <Layout>
+     
+          <div>
+              <Form/>
+          </div>
+     
+    </Layout>
   );
 }
