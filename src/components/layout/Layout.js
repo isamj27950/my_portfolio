@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <div>
     < SectionHeroHome/>
           <Navbar />
-          <Sidebar />
+          
       <main>{children}</main>
       <Footer />
     </div>

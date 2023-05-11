@@ -6,22 +6,28 @@ import { createClient } from "contentful";
 import Link from 'next/link';
 import CardsWork from '@/components/cards/CardsWork';
 import Layout from '@/components/layout/Layout';
+import Sidebar from '@/components/navigation/Sidebar';
 
 export default function work({posts}) {
   console.log(posts);
   return (
-          <Layout>   
-            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2  bg-gray-800 py-4 mx-20 rounded-xl">
-              {posts.map((post) => (
-                <Link href={`post/${post.fields.slug}`}>
-                  <CardsWork
-                    img={post.fields.image2.fields.file.url}
-                    title={post.fields.title}
-                    subtitle={post.fields.subtitle}
-                  />
-                </Link>
-              ))}
-            </div>
+    <Layout> 
+      <div className='flex'>
+        <div> 
+          <Sidebar />
+        </div>
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2  bg-gray-800 py-4 mx-20 rounded-xl">
+          {posts.map((post) => (
+            <Link href={`post/${post.fields.slug}`}>
+              <CardsWork
+                img={post.fields.image2.fields.file.url}
+                title={post.fields.title}
+                subtitle={post.fields.subtitle}
+              />
+            </Link>
+          ))}
+        </div>
+      </div>
          </Layout>
       
   );
