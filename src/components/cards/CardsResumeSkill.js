@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CardsResumeSkill() {
     return (
-      <div className='px-6'>
+      <div className='px-6 xl:flex '>
         <div className='py-2'>
           <h4 className="text-[#878e99] text-sm font-normal">Features</h4>
           <h3 className="text-white font-medium text-2xl">Design Skill</h3>

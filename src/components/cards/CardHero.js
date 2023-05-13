@@ -17,7 +17,7 @@ export default function CardHero() {
             </h1>
             <h2 className="text-gray-500 text-xl py-2 ">I am a dev'woman </h2>
             <div className=" ">
-            <CardsIconHero />
+            <CardsIconHero /> 
           </div>  
         </div>
       </div>
