@@ -53,20 +53,18 @@ export default function work({ post }) {
   console.log("post:", post);
   const { title, subtitle, text, image2 } = post.fields;
   return (
-    
-      <div className=''>
-        <div className='w-full pt-6'> 
-            <img
-            src={image2.fields.file.url}
-            alt={title}
-            />
-        </div>
-      <p className='font-semibold pt-4 text-2xl text-white'>{title}</p>
-      <p>{subtitle }</p>
-      <div
-        className='pt-4 text-white'><p>{text}</p> </div>
+    <div className="bg-gray-800 ">
+      <div className="">
+        <img src={image2.fields.file.url} alt={title} className='w-[50%]rounded-xl drop-shadow-2xl mx-auto pt-8' />
       </div>
-  
+      <div className='mx-80 pt-8'> 
+        <p className="font-semibold  text-2xl text-white ">{title}</p>
+        <p>{subtitle}</p>
+        <div className=" text-[#878e99] text-lg pb-8">
+          <p>{text}</p>{" "}
+        </div>
+      </div>
+    </div>
   );
 }
 

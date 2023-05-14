@@ -14,8 +14,10 @@ export default function resume() {
       <div className="containera">
         <Sidebar />
         <div className="bg-gray-800 rounded-xl drop-shadow-xl xl:ml-20 ">
-          <div className="xl:flex">
-            <div className=" pl-6">
+        
+          <div className="xl:grid grid-cols-2">
+            {/* 2 cards education*/}
+            <div className=" pl-4">
               <p className="text-[#f9004d] text-base font-medium pt-4">
                 2007-2010
               </p>
@@ -27,7 +29,8 @@ export default function resume() {
               </div>
             </div>
             <div>
-              <div className="pl-6">
+              {/*les 2 cards job*/}
+              <div className="pl-4">
                 <p className="text-[#f9004d] text-base font-medium pt-4">
                   2007-2010
                 </p>
@@ -40,6 +43,7 @@ export default function resume() {
               </div>
             </div>
           </div>
+          {/*les 2 cards features*/ }
           <div className="">
             <CardsResumeSkill />
           </div>

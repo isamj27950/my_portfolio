@@ -4,75 +4,81 @@ import { FiArrowRight } from "react-icons/fi";
 export default function Form() {
   return (
     <div className="bg-gray-800  rounded-2xl block  ">
-      <div className="border-solid border-gray-600 rounded-l ">
+      <div className="border-solid  p-4 ">
+        {/*case nom*/ }
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text text-white font-light uppercase">
+            <span className="label-text text-white text-lg font-light uppercase">
               Your name
             </span>
           </label>
           <input
             type="text"
             placeholder=""
-            className="input input-bordered input-error m-4 max-w-xs bg-black mx-4"
+            className="input input-bordered drop-shadow-2xl m-4 max-w-xs bg-black mx-4"
           />
         </div>
+        {/*case phone*/}
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text  text-white font-light uppercase">
+            <span className="label-text  text-white text-lg font-light uppercase">
               Phone number
             </span>
           </label>
           <input
             type="text"
             placeholder=""
-            className="input input-bordered input-error m-4 max-w-xs bg-black mx-4"
+            className="input input-bordered drop-shadow-2xl m-4 max-w-xs bg-black mx-4"
           />
         </div>
-        <div className="form-control w-full max-w-xs">
-          <label className="label">
-            <span className="label-text  text-white font-light uppercase">
+        {/*case email*/}
+        <div className="form-control w-full max-w-xs ">
+          <label className="label ">
+            <span className="label-text  text-white text-lg font-light uppercase">
               Email
             </span>
           </label>
           <input
             type="text"
             placeholder=""
-            className="input input-bordered input-error mx-4 max-w-xs bg-black "
+            className="input input-bordered drop-shadow-2xl mx-4 max-w-xs bg-black "
           />
         </div>
+        {/*case subject*/}
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text  text-white font-light uppercase ">
+            <span className="label-text  text-white text-lg font-light uppercase ">
               Subject
             </span>
           </label>
           <input
             type="text"
             placeholder=""
-            className="input input-bordered input-error  max-w-xs bg-black mx-4"
+            className="input input-bordered drop-shadow-2xl  max-w-xs bg-black mx-4"
           />
         </div>
+        {/*case message*/ }
         <div className="form-control w-full max-w-xs">
           <label className="label">
-            <span className="label-text  text-white font-light uppercase">
+            <span className="label-text  text-white text-lg font-light uppercase">
               Your message
             </span>
           </label>
           <textarea
-            className="textarea textarea-error bg-black mx-4 "
+            className="textarea drop-shadow-2xl bg-black mx-4 "
             placeholder=""
           ></textarea>
         </div>
       </div>
-      <div className="py-8   block ">
-        <div className='pb-2'>      
-            <button className="btn btn-wide text-[#f9004d] drop-shadow-2xl  ">
+      {/*les 2 boutons*/ }
+      <div className=" p-6  block ">
+        <div className='pb-2 drop-shadow-2xl'>      
+            <button className="btn btn-wide text-[#f9004d]  ">
                 Send Message <FiArrowRight />
             </button>
         </div>
-        <div className='py-4 '>    
-            <button className="btn btn-wide text-[#f9004d] bg-red-800 drop-shadow-2xl  ">
+        <div className='py-6 drop-shadow-2xl'>    
+            <button className="btn btn-wide text-[#f9004d] bg-red-800   ">
             *Name can not be empty!
             </button>
         </div>

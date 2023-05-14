@@ -3,13 +3,14 @@ import React from 'react'
 export default function CardAboutClients() {
     return (
       <div className="xl:flex">
-        <div className="md:flex">
+        <div className="md:flex md:justify-center">
           {/*card1*/}
-          <div className="bg-gray-800 rounded-xl drop-shadow-2xl text-center p-6 m-8 ">
-            <div className="pb-4">
+          <div className="bg-gray-800 rounded-xl drop-shadow-2xl items-center text-center p-6 m-8 ">
+            <div className="pb-4 ">
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
+                className='m-auto'
               />
             </div>
             <div>
@@ -24,6 +25,7 @@ export default function CardAboutClients() {
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
+                className='m-auto'
               />
             </div>
             <div>
@@ -34,12 +36,13 @@ export default function CardAboutClients() {
           </div>
         </div>
         {/*card3*/}
-        <div className="md:flex">
+        <div className="md:flex md:justify-center">
           <div className="bg-gray-800 rounded-xl drop-shadow-2xl text-center p-6 m-8 ">
             <div className="pb-4">
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
+                className='m-auto'
               />
             </div>
             <div>
@@ -54,6 +57,7 @@ export default function CardAboutClients() {
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
+                className='m-auto'
               />
             </div>
             <div>

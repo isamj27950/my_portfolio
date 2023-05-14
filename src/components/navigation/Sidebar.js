@@ -6,9 +6,9 @@ export default function Sidebar() {
   return (
     <div className=" hidden xl:block xl:sticky top:0 left:0  ">
       <div className="drawer-side">
-        <ul className="menu p-6 w-40 h-100%  bg-gray-800 rounded-2xl text-white">
+        <ul className="menu p-6 w-40 h-100%  bg-gray-800 rounded-2xl text-white text-xl">
           <li className="hover:bg-[#ff014f] rounded-2xl ">
-            <a href="/about">About</a>
+            <a  href="/about">About</a>
           </li>
           <li className="hover:bg-[#ff014f] rounded-2xl ">
             <a href="/resume">Resume</a>

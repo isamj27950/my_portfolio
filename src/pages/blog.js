@@ -12,7 +12,6 @@ export default function blog() {
       <Navbar />
       <div className='containera'> 
         <Sidebar/>
-        <h1 className="bg-gray-800 text-white">BLOG</h1>
         <CardBlog/>
       </div>  
         <Footer />

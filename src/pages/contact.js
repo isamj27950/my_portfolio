@@ -13,8 +13,8 @@ export default function contact() {
     <Layout>
       <div className="containera">
         <Sidebar />
-        <div className='block  xl:flex justify-items-center gap-0 xl:ml-20 w-full'>
-          <div className=''>
+        <div className='block space-y-2 xl:flex justify-items-center gap-0 xl:ml-20 w-full'>
+          <div className='drop-shadow-2xl rounded-2xl '>
             <CardContact />
           </div>
           <div className=''>

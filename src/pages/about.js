@@ -7,18 +7,19 @@ import CardAboutMe from '@/components/cards/CardAboutMe';
 import Sidebar from '@/components/navigation/Sidebar';
 import CardAboutClients from '@/components/cards/CardAboutClients';
 
+
 export default function about() {
   return (
-    <div className=" ">
-      <SectionHeroHome />
-      <Navbar />
+    <div> 
+      <SectionHeroHome/>
+      <Navbar/>
       <div className="containera ">
         <div className="">
           <Sidebar />
         </div>
         {/**partie haute avec l'image */}
         <div className="bg-gray-800 py-4  drop-shadow-xl rounded-xl xl:ml-20 ">
-          <div className="bg-gray-800 px-5 xl:flex xl:pb-10 ">
+          <div className="bg-gray-800 px-5 xl:flex xl:pb-10  ">
             <img
               src="images/img_bureau.jpeg"
               className="bg-cover w-[80%] h-25 m-2  xl:w-2/5 px-4 "
@@ -72,12 +73,12 @@ export default function about() {
           <h2 className="text-[#c4cfde] text-center font-bold text-xl">
             Our trusted Clients
           </h2>
-          <div>
+          <div className=''>
             <CardAboutClients />
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

@@ -2,18 +2,19 @@ import React from 'react'
 
 export default function CardsResumeSkill() {
     return (
-      <div className='px-6 xl:flex '>
-        <div className='py-2'>
+      <div className=' xl:flex xl:justify-center xl:space-x-28 '>
+        {/*card design*/ }
+        <div className='py-4 m-3'>
           <h4 className="text-[#878e99] text-sm font-normal">Features</h4>
           <h3 className="text-white font-medium text-2xl">Design Skill</h3>
-          <div>
+          <div className=''>
             <p className="text-[#c4cfde] text-xs font-normal">Photoshot</p>
             <input
               type="range"
               min="0"
               max="100"
               value="70"
-              className="range range-secondary range-xs mx-2"
+              className="range range-secondary range-xs  mx-2 "
             />
           </div>
           <div>
@@ -23,7 +24,7 @@ export default function CardsResumeSkill() {
               min="0"
               max="100"
               value="80"
-              className="range range-secondary range-xs mx-2"
+              className="range range-secondary range-xs mx-2 "
             />
           </div>
           <div>
@@ -49,7 +50,8 @@ export default function CardsResumeSkill() {
             />
           </div>
         </div>
-        <div className='py-2 pb-8'>
+        {/*Card dev skill*/}
+        <div className='py-4 m-3'>
           <h4 className="text-[#878e99] text-sm font-normal">Features</h4>
           <h3 className="text-white font-medium text-2xl">Development Skill</h3>
           <div>
