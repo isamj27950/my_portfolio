@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function CardAboutMe() {
   return (
-    <div>
-      <div className="bg-gray-800 rounded-lg text-center p-6 m-8">
+    <div className='xl:flex'>
+      <div className="bg-gray-800 rounded-lg text-center p-6 m-8 ">
         <icon></icon>
         <h2 className="text-[#878e99]">Web Design full Stack</h2>
         <p className="text-[#878e99] pt-2">

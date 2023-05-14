@@ -3,11 +3,11 @@ import React from 'react'
 
 export default function SectionHeroHome() {
   return (
-    <div className='relative' >
-      <img src="images/ordi_rose.jpeg" alt="image d'un bureau de dev rose" className=" w-full h-74 "
+    <div className='' >
+      <img src="images/ordi_rose.jpeg" alt="image d'un bureau de dev rose" className=" w-full h-68"
       />
 
-      <div className=''>
+      <div className='mx-[10%] relative'>
         <CardHero />
       </div>
     </div>

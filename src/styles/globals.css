@@ -11,8 +11,13 @@ body{
     
     background: rgb(31, 31, 31);
 }
-.container{
+.containera{
     display: flex;
+    margin-right:10%;
+    margin-left: 10%;
+   
+    
+   
   
 
 

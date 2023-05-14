@@ -3,7 +3,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export default function Form() {
   return (
-    <div className="bg-gray-700 mx-20 rounded-2xl block ">
+    <div className="bg-gray-800  rounded-2xl block  ">
       <div className="border-solid border-gray-600 rounded-l ">
         <div className="form-control w-full max-w-xs">
           <label className="label">
@@ -60,7 +60,7 @@ export default function Form() {
             </span>
           </label>
           <textarea
-            className="textarea textarea-error bg-black mx-4"
+            className="textarea textarea-error bg-black mx-4 "
             placeholder=""
           ></textarea>
         </div>

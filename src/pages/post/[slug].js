@@ -3,8 +3,8 @@ import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 const client = createClient({
-  space:process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID,
-  accessToken:process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN,
+  space:process.env.NEXT_PUBLIC_CONTENTFUL_SPACE_ID2,
+  accessToken:process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN2,
 });
 
 
@@ -51,19 +51,20 @@ export async function getStaticProps({ params }) {
 
 export default function work({ post }) {
   console.log("post:", post);
-  const { title, subtitle, content, image2 } = post.fields;
+  const { title, subtitle, text, image2 } = post.fields;
   return (
     
-      <div className='container'>
+      <div className=''>
         <div className='w-full pt-6'> 
             <img
             src={image2.fields.file.url}
             alt={title}
             />
         </div>
-      <p className='font-semibold pt-4'>{title}</p>
+      <p className='font-semibold pt-4 text-2xl text-white'>{title}</p>
       <p>{subtitle }</p>
-        <div className='pt-4'>{documentToReactComponents(content)}</div>
+      <div
+        className='pt-4 text-white'><p>{text}</p> </div>
       </div>
   
   );
