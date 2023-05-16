@@ -26,59 +26,61 @@ export default function Navbar() {
   };
 
   return (
-    <div className="text-white text-xl font-normal w-full h-16">
-      <ul className="flex justify-center w-full my-4 rounded-2xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
-        <Link href="/about">
-          <li
-            className={`rounded-2xl py-2 px-4 ${
-              activeTab === "about" ? "bg-[#ff014f]" : ""
-            }`}
-            onClick={() => handleTabClick("about")}
-          >
-            About
-          </li>
-        </Link>
-        <Link href="/resume">
-          <li
-            className={`rounded-2xl py-2 px-4 ${
-              activeTab === "resume" ? "bg-[#ff014f]" : ""
-            }`}
-            onClick={() => handleTabClick("resume")}
-          >
-            Resume
-          </li>
-        </Link>
-        <Link href="/work">
-          <li
-            className={`rounded-2xl py-2 px-4 ${
-              activeTab === "work" ? "bg-[#ff014f]" : ""
-            }`}
-            onClick={() => handleTabClick("work")}
-          >
-            Work
-          </li>
-        </Link>
-        <Link href="/blog">
-          <li
-            className={`rounded-2xl py-2 px-4 ${
-              activeTab === "blog" ? "bg-[#ff014f]" : ""
-            }`}
-            onClick={() => handleTabClick("blog")}
-          >
-            Blog
-          </li>
-        </Link>
-        <Link href="/contact">
-          <li
-            className={`rounded-2xl py-2 px-4 ${
-              activeTab === "contact" ? "bg-[#ff014f]" : ""
-            }`}
-            onClick={() => handleTabClick("contact")}
-          >
-            Contact
-          </li>
-        </Link>
-      </ul>
+    <div className="text-white text-xl  font-normal ">
+      <div className="md:mx-[10%] md:py-8 ">
+        <ul className="flex justify-start   p-2 w-full   drop-shadow-xl rounded-xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
+          <Link href="/about">
+            <li
+              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+                activeTab === "about" ? "bg-[#ff014f]" : ""
+              }`}
+              onClick={() => handleTabClick("about")}
+            >
+              About
+            </li>
+          </Link>
+          <Link href="/resume">
+            <li
+              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+                activeTab === "resume" ? "bg-[#ff014f]" : ""
+              }`}
+              onClick={() => handleTabClick("resume")}
+            >
+              Resume
+            </li>
+          </Link>
+          <Link href="/work">
+            <li
+              className={`rounded-2xl py-4 px-10  text-xl text-center${
+                activeTab === "work" ? "bg-[#ff014f]" : ""
+              }`}
+              onClick={() => handleTabClick("work")}
+            >
+              Work
+            </li>
+          </Link>
+          <Link href="/blog">
+            <li
+              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+                activeTab === "blog" ? "bg-[#ff014f]" : ""
+              }`}
+              onClick={() => handleTabClick("blog")}
+            >
+              Blog
+            </li>
+          </Link>
+          <Link href="/contact">
+            <li
+              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+                activeTab === "contact" ? "bg-[#ff014f]" : ""
+              }`}
+              onClick={() => handleTabClick("contact")}
+            >
+              Contact
+            </li>
+          </Link>
+        </ul>
+      </div>
     </div>
   );
 }

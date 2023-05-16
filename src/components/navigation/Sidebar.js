@@ -8,8 +8,8 @@ export default function Sidebar() {
   return (
     <div className="hidden xl:block xl:sticky top-0 left-0">
       <div className="drawer-side">
-        <ul className="menu p-6 w-40 h-100% bg-gray-800 rounded-2xl text-white text-xl">
-          <SidebarItem href="/about" text="About" />
+        <ul className="menu p-2  w-44 bg-gray-800 rounded-2xl items-center text-white text-xl">
+          <SidebarItem href="/about"  text="About"  />
           <SidebarItem href="/resume" text="Resume" />
           <SidebarItem href="/work" text="Work" />
           <SidebarItem href="/blog" text="Blog" />
@@ -27,7 +27,7 @@ function SidebarItem({ href, text }) {
 
   return (
     <li
-      className={`hover:bg-[#ff014f] rounded-2xl ${
+      className={`hover:bg-[#ff014f] rounded-2xl p-5 ${
         isActive ? "bg-[#ff014f]" : ""
       }`}
     >
