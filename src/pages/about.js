@@ -1,18 +1,17 @@
-import React from 'react'
+import React from "react";
 import { BiCheck } from "react-icons/bi";
-import SectionHeroHome from './SectionHeroHome';
-import Navbar from '@/components/navigation/Navbar';
-import Footer from '@/components/footer/Footer';
-import CardAboutMe from '@/components/cards/CardAboutMe';
-import Sidebar from '@/components/navigation/Sidebar';
-import CardAboutClients from '@/components/cards/CardAboutClients';
-
+import SectionHeroHome from "../components/SectionHeroHome";
+import Navbar from "@/components/navigation/Navbar";
+import Footer from "@/components/footer/Footer";
+import CardAboutMe from "@/components/cards/CardAboutMe";
+import Sidebar from "@/components/navigation/Sidebar";
+import CardAboutClients from "@/components/cards/CardAboutClients";
 
 export default function about() {
   return (
-    <div> 
-      <SectionHeroHome/>
-      <Navbar/>
+    <div>
+      <SectionHeroHome />
+      <Navbar />
       <div className="containera ">
         <div className="">
           <Sidebar />
@@ -73,12 +72,12 @@ export default function about() {
           <h2 className="text-[#c4cfde] text-center font-bold text-xl">
             Our trusted Clients
           </h2>
-          <div className=''>
+          <div className="">
             <CardAboutClients />
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

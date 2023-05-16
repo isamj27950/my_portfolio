@@ -1,12 +1,12 @@
-import CardsResumeEduc from '@/components/cards/CardsResumeEduc'
-import CardsResumeJob from '@/components/cards/CardsResumeJob'
-import CardsResumeSkill from '@/components/cards/CardsResumeSkill'
-import Footer from '@/components/footer/Footer';
-import Navbar from '@/components/navigation/Navbar';
-import React from 'react'
-import SectionHeroHome from './SectionHeroHome';
-import Layout from '@/components/layout/Layout';
-import Sidebar from '@/components/navigation/Sidebar';
+import CardsResumeEduc from "@/components/cards/CardsResumeEduc";
+import CardsResumeJob from "@/components/cards/CardsResumeJob";
+import CardsResumeSkill from "@/components/cards/CardsResumeSkill";
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/navigation/Navbar";
+import React from "react";
+import SectionHeroHome from "../components/SectionHeroHome";
+import Layout from "@/components/layout/Layout";
+import Sidebar from "@/components/navigation/Sidebar";
 
 export default function resume() {
   return (
@@ -14,7 +14,6 @@ export default function resume() {
       <div className="containera">
         <Sidebar />
         <div className="bg-gray-800 rounded-xl drop-shadow-xl xl:ml-20 ">
-        
           <div className="xl:grid grid-cols-2">
             {/* 2 cards education*/}
             <div className=" pl-4">
@@ -43,7 +42,7 @@ export default function resume() {
               </div>
             </div>
           </div>
-          {/*les 2 cards features*/ }
+          {/*les 2 cards features*/}
           <div className="">
             <CardsResumeSkill />
           </div>
