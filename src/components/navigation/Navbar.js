@@ -28,7 +28,7 @@ export default function Navbar() {
   return (
     <div className="text-white text-xl  font-normal ">
       <div className="md:mx-[10%] md:py-8 ">
-        <ul className="flex space-x-4 md:justify-start   md:p-2 w-full   drop-shadow-xl rounded-xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
+        <ul className="flex space-x-2 md:justify-start   md:p-2 w-full   drop-shadow-xl rounded-xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
           <Link href="/about">
             <li
               className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
@@ -71,7 +71,7 @@ export default function Navbar() {
           </Link>
           <Link href="/contact">
             <li
-              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
+              className={`rounded-2xl py-4 px-4 md:px-1 text-lg md:text-xl text-center ${
                 activeTab === "contact" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("contact")}
