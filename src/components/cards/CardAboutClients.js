@@ -10,7 +10,7 @@ export default function CardAboutClients() {
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
-                className='m-auto'
+                className='mx-auto'
               />
             </div>
             <div>
@@ -25,7 +25,7 @@ export default function CardAboutClients() {
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
-                className='m-auto'
+                className='mx-auto'
               />
             </div>
             <div>
@@ -42,7 +42,7 @@ export default function CardAboutClients() {
               <img
                 src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
                 alt=""
-                className='m-auto'
+                className='mx-auto'
               />
             </div>
             <div>

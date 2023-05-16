@@ -8,8 +8,8 @@ export default function CardHero() {
       <div className="  mx-auto   ">
         {/*imagelogo et presentation*/}
         <img
-          src="images/LOGO initiales.jpg"
-          className="w-48 h-48  rounded-xl border-gray-800 border-8 drop-shadow-2xl -mt-28 absolute mx-[20%]  md:mx-[40%] xl:-mx-[1%] "
+          src="images/LOGO_initiale-1.png"
+          className="w-48 h-48 bg-pink-200 rounded-xl border-gray-800 border-8 drop-shadow-2xl -mt-28 absolute mx-[20%]  md:mx-[40%] xl:-mx-[1%] "
           alt=" logo du devellopeur"
         />
         <div className='text-center m-2 xl:ml-44' >

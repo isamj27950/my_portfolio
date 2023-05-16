@@ -18,10 +18,10 @@ export default function about() {
         </div>
         {/**partie haute avec l'image */}
         <div className="bg-gray-800 py-4  drop-shadow-xl rounded-xl xl:ml-20 ">
-          <div className="bg-gray-800 px-5 xl:flex xl:pb-10  ">
+          <div className="bg-gray-800 px-5 xl:flex xl:pb-10 ">
             <img
               src="images/img_bureau.jpeg"
-              className="bg-cover w-[80%] h-25 m-2  xl:w-2/5 px-4 "
+              className="bg-cover w-[80%] mx-auto h-25 m-2  xl:w-2/5 px-4 "
               alt=""
             />
             <div className="xl:block">

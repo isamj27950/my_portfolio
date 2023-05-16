@@ -9,7 +9,7 @@ import Layout from "@/components/layout/Layout";
 import Sidebar from "@/components/navigation/Sidebar";
 
 export default function work({ posts }) {
-  console.log(posts);
+  /*console.log(posts);*/
   return (
     <Layout>
       <div className="containera">
@@ -18,8 +18,9 @@ export default function work({ posts }) {
           {posts.map((post) => (
             <Link href={`post/${post.fields.slug}`}>
               <CardsWork
-                img={post.fields.image2.fields.file.url}
+                img={post.fields.goat.fields.file.url}
                 title={post.fields.title}
+                date={post.fields.date}
                 subtitle={post.fields.subtitle2}
                 text={post.fields.text}
               />
