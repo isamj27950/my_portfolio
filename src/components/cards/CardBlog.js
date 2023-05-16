@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 
 
-export default function CardBlog({ img, title, content }) {
+/*export default function CardBlog({ img, title, content }) {
   return (
     <div>
    
@@ -14,4 +14,4 @@ export default function CardBlog({ img, title, content }) {
       
      
   );
-}
+}*/

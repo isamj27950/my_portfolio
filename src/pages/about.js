@@ -32,19 +32,27 @@ export default function about() {
                 About Me
               </h2>
               <p className="text-[#878e99] text-center py-4 md:text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati itaque voluptatibus earum maxime adipisci sapiente ex
-                expedita at? Recusandae modi quae et nihil ullam sapiente vel
-                tempore sed cum alias.
+                En reconversion professionnelle dans le domaine du développement
+                web, mes expériences passées m'ont permis d'acquérir de
+                nombreuses compétences. Plus de 20 ans d'expérience en tant que
+                coach sportif et responsable de salle de sport m'ont appris le
+                travail en équipe, le sens du contact avec les clients. Cela m'a
+                permis d'acquérir un sens de la pédagogie ,de la transmission et
+                de l'écoute. J'ai commencé en septembre 2022 par une formation
+                sur Paris de développeur full-stack, ensuite j'ai pratiqué
+                quelques mois entreprise.Et depuis décembre 2022 je suis une
+                nouvelle formation de développeuse intégratrice de systèmes
+                intranet internet .
               </p>
               {/**Les checks */}
               <div className="py-4 md:text-start">
                 <p className="flex text-[#878e99]">
                   <BiCheck />
-                  Dévellopeuse de solutions
+                  Web Designer
                 </p>
                 <p className="flex text-[#878e99]">
-                  <BiCheck /> Dévellopeuse de solutions
+                  <BiCheck />
+                  Dévellopeuse Front-End
                 </p>
                 <p className="flex text-[#878e99]">
                   <BiCheck />

@@ -7,13 +7,13 @@ import CardBlog from "@/components/cards/CardBlog";
 import Link from "next/link";
 import { createClient } from "contentful";
 
-export default function blog({ posts }) {
+/*export default function blog({ posts }) {
   console.log(posts);
   return (
     <div>
       <SectionHeroHome />
       <Navbar />
-      <div className="containera">
+     <div className="containera">
         <Sidebar />
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2  bg-gray-800 py-4 xl:ml-20 rounded-xl">
           {posts.map((post) => (
@@ -54,4 +54,4 @@ export async function getStaticProps() {
     },
   };
 }
-
+*/

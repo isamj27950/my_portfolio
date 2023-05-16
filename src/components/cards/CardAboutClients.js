@@ -8,14 +8,14 @@ export default function CardAboutClients() {
           <div className="bg-gray-800 rounded-xl drop-shadow-2xl items-center text-center p-6 m-8 ">
             <div className="pb-4 ">
               <img
-                src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
+                src="images/Capture d’écran DISII.png"
                 alt=""
-                className='mx-auto'
+                className='mx-auto '
               />
             </div>
             <div>
               <h3 className="text-[#878e99] pt-4  border-t-2 border-gray-900 ">
-                Mark Smiths
+                DISII BAND
               </h3>
             </div>
           </div>
@@ -23,14 +23,14 @@ export default function CardAboutClients() {
           <div className="bg-gray-800 rounded-xl drop-shadow-2xl text-center p-6 m-8 ">
             <div className="pb-4">
               <img
-                src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
+                src="images/Capture d’écran flow.png"
                 alt=""
                 className='mx-auto'
               />
             </div>
             <div>
               <h3 className="text-[#878e99] pt-4  border-t-2 border-gray-900 ">
-                Mark Smiths
+                FLOW'EURE
               </h3>
             </div>
           </div>
@@ -40,14 +40,14 @@ export default function CardAboutClients() {
           <div className="bg-gray-800 rounded-xl drop-shadow-2xl text-center p-6 m-8 ">
             <div className="pb-4">
               <img
-                src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
+                src="images/Capture d’écran pet.png"
                 alt=""
-                className='mx-auto'
+                className='mx-auto '
               />
             </div>
             <div>
               <h3 className="text-[#878e99] pt-4  border-t-2 border-gray-900">
-                Mark Smiths
+                PET SHOP
               </h3>
             </div>
           </div>
@@ -55,14 +55,14 @@ export default function CardAboutClients() {
           <div className="bg-gray-800 rounded-xl drop-shadow-2xl text-center p-6 m-8 ">
             <div className="pb-4">
               <img
-                src="https://rainbowit.net/html/inbio/assets/images/client/png/client1.png"
+                src="images/Capture d’écran poud.png"
                 alt=""
                 className='m-auto'
               />
             </div>
             <div>
               <h3 className="text-[#878e99] pt-4  border-t-2 border-gray-900">
-                Mark Smiths
+                POUDLARD
               </h3>
             </div>
           </div>
