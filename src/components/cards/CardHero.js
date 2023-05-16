@@ -4,17 +4,16 @@ import CardsIconHero from './CardsIconHero';
 
 export default function CardHero() {
   return (
-  
-    <div className="bg-gray-800 w-full rounded-2xl xl:flex  -mt-20">
-      <div className=" text-center w-1/2 mx-auto xl:flex ">
+    <div className="bg-gray-800 w-full rounded-2xl xl:flex md:-mt-24 xl:-mt-48">
+      <div className="  mx-auto   ">
         {/*imagelogo et presentation*/}
         <img
           src="images/LOGO initiales.jpg"
-          className="w-36 h-40  rounded-xl border-gray-800 drop-shadow-2xl mx-auto -mt-12"
+          className="w-48 h-48  rounded-xl border-gray-800 border-8 drop-shadow-2xl -mt-28 absolute mx-[20%]  md:mx-[40%] xl:-mx-[1%] "
           alt=" logo du devellopeur"
         />
-        <div>
-          <h1 className="text-white font-semibold text-3xl py-2 pt-8 mr-6">
+        <div className='text-center m-2 xl:ml-44' >
+          <h1 className="text-white font-semibold text-3xl py-1 pt-24 xl:pt-2 xl:ml-4">
             Mademoiselle Maître-Jean
           </h1>
           <h2 className="text-gray-500 text-xl py-2 ">I am a dev'woman </h2>

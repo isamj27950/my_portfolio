@@ -28,10 +28,10 @@ export default function Navbar() {
   return (
     <div className="text-white text-xl  font-normal ">
       <div className="md:mx-[10%] md:py-8 ">
-        <ul className="flex justify-start   p-2 w-full   drop-shadow-xl rounded-xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
+        <ul className="flex md:justify-start   md:p-2 w-full   drop-shadow-xl rounded-xl fixed bottom-0 z-10 bg-gray-800 md:relative xl:hidden">
           <Link href="/about">
             <li
-              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
                 activeTab === "about" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("about")}
@@ -41,7 +41,7 @@ export default function Navbar() {
           </Link>
           <Link href="/resume">
             <li
-              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
                 activeTab === "resume" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("resume")}
@@ -51,7 +51,7 @@ export default function Navbar() {
           </Link>
           <Link href="/work">
             <li
-              className={`rounded-2xl py-4 px-10  text-xl text-center${
+              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center${
                 activeTab === "work" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("work")}
@@ -61,7 +61,7 @@ export default function Navbar() {
           </Link>
           <Link href="/blog">
             <li
-              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
                 activeTab === "blog" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("blog")}
@@ -71,7 +71,7 @@ export default function Navbar() {
           </Link>
           <Link href="/contact">
             <li
-              className={`rounded-2xl py-4 px-10  text-xl text-center ${
+              className={`rounded-2xl py-4 px-2 md:px-9 text-lg md:text-xl text-center ${
                 activeTab === "contact" ? "bg-[#ff014f]" : ""
               }`}
               onClick={() => handleTabClick("contact")}

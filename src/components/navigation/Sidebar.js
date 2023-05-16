@@ -27,7 +27,7 @@ function SidebarItem({ href, text }) {
 
   return (
     <li
-      className={`hover:bg-[#ff014f] rounded-2xl p-5 ${
+      className={`w-full rounded-2xl p-5 ${
         isActive ? "bg-[#ff014f]" : ""
       }`}
     >
