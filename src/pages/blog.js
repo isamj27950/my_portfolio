@@ -7,7 +7,7 @@ import CardBlog from "@/components/cards/CardBlog";
 import Link from "next/link";
 import { createClient } from "contentful";
 
-/*export default function blog({ posts }) {
+export default function blog({ posts }) {
   console.log(posts);
   return (
     <div>
@@ -15,20 +15,23 @@ import { createClient } from "contentful";
       <Navbar />
      <div className="containera">
         <Sidebar />
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2  bg-gray-800 py-4 xl:ml-20 rounded-xl">
+        {/*<div className="grid md:grid-cols-2 xl:grid-cols-3 gap-2  bg-gray-800 py-4 xl:ml-20 rounded-xl">
           {posts.map((post) => (
-            <Link href={`post/${post.fields.slug2}`}>
+            <Link href={`post/${post.fields.slug}`}>
               <CardBlog
-                img={post.fields.article1.fields.file.url} 
+                img={post.fields.image2.fields.file.url} 
                 title={post.fields.title}
                 text={post.fields.text}
               />
             </Link>
           ))}
+          </div>*/}
+        <div> <h2 className="text-pink-600 text-center">En TravauX....</h2>
+          <img src="https://tse1.mm.bing.net/th?id=OIP.rymj8d61pO6xKD1qR2bkqwHaEK&pid=Api&rs=1&c=1&qlt=95&w=184&h=103" alt="" className="w-20 h-20" />
         </div>
-      </div>
       <Footer />
-    </div>
+      </div>
+      </div>
   );
 }
 export async function getStaticProps() {
@@ -41,7 +44,7 @@ export async function getStaticProps() {
   //2 recuperer data en cas de success pour le content_type => portfolio
 
   const data = await client.getEntries({
-    content_type: "portfolioblog",
+    content_type: "portfolio",
     order: "sys.createdAt",
     limit: 6,
   });
@@ -54,4 +57,4 @@ export async function getStaticProps() {
     },
   };
 }
-*/
+

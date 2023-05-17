@@ -8,7 +8,7 @@ export default function Sidebar() {
   return (
     <div className="hidden xl:block xl:sticky top-0 left-0">
       <div className="drawer-side">
-        <ul className="menu p-2  w-44 bg-gray-800 rounded-2xl items-center text-white text-xl">
+        <ul className="menu p-2  w-44 bg-gray-800 rounded-2xl items-center text-white text-xl text-center">
           <SidebarItem href="/about"  text="About"  />
           <SidebarItem href="/resume" text="Resume" />
           <SidebarItem href="/work" text="Work" />

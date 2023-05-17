@@ -12,7 +12,7 @@ export default function Navbar() {
 
   const getActiveTabFromURL = () => {
     const path = router.pathname;
-    // Modifier les valeurs ci-dessous pour correspondre à vos URL
+    // mettre les valeurs qui correspondre à mes URL
     if (path === "/about") return "about";
     if (path === "/resume") return "resume";
     if (path === "/work") return "work";
